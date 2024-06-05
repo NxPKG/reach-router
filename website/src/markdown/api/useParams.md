@@ -5,7 +5,7 @@ Returns an object of the params for the route rendered.
 This API requires a hook-compatible version of React.
 
 ```jsx
-import { useParams } from "@reach/router"
+import { useParams } from "@nx-pkg/reach-router"
 
 // route: /user/:userName
 const User = () => {

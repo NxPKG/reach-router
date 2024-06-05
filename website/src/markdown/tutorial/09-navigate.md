@@ -7,7 +7,7 @@ import {
   Router,
   Link,
   navigate
-} from "@reach/router"
+} from "@nx-pkg/reach-router"
 ```
 
 Probably the most common reason to use `navigate` is a form submission. Perhaps the user submits a form, you save some data, and then navigate to the record. Let's add this form to `Invoices`:

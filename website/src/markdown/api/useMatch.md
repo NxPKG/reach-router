@@ -5,7 +5,7 @@ Matches a path to the location. Matching is relative to any parent Routers, but 
 This API requires a hook-compatible version of React.
 
 ```jsx
-import { useMatch } from "@reach/router"
+import { useMatch } from "@nx-pkg/reach-router"
 
 const App = () => {
   const match = useMatch('/hot/:item');

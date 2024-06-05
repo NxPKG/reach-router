@@ -3,7 +3,7 @@
 If you need to navigate programmatically (like after a form submits), import `navigate`.
 
 ```jsx
-import { navigate } from "@reach/router"
+import { navigate } from "@nx-pkg/reach-router"
 
 const Invoices = () => (
   <div>

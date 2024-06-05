@@ -2,10 +2,10 @@
 
 There are a few things to consider when server rendering your React app with Reach Router.
 
-* Transpiling JSX for Node.js
-* Providing the location statically to the app
-* Handling redirects
-* Data loading
+- Transpiling JSX for Node.js
+- Providing the location statically to the app
+- Handling redirects
+- Data loading
 
 ## Transpiling JSX for Node.js
 
@@ -17,7 +17,7 @@ This part is pretty simple, bring in `ServerLocation` and wrap your app in it. W
 
 ```jsx
 import { renderToString } from "react-dom/server"
-import { ServerLocation } from "@reach/router"
+import { ServerLocation } from "@nx-pkg/reach-router"
 import App from "./App"
 
 createServer((req, res) => {
@@ -42,7 +42,7 @@ import { renderToString } from "react-dom/server"
 import {
   ServerLocation,
   isRedirect
-} from "@reach/router"
+} from "@nx-pkg/reach-router"
 import App from "./App"
 
 createServer((req, res) => {

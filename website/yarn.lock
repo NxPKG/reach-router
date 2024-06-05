@@ -563,9 +563,9 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@reach/router@latest":
+"@nx-pkg/reach-router@latest":
   version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@reach/router/-/router-1.2.1.tgz#34ae3541a5ac44fa7796e5506a5d7274a162be4e"
+  resolved "https://registry.yarnpkg.com/@nx-pkg/reach-router/-/router-1.2.1.tgz#34ae3541a5ac44fa7796e5506a5d7274a162be4e"
   dependencies:
     create-react-context "^0.2.1"
     invariant "^2.2.3"

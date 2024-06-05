@@ -5,7 +5,7 @@ React 16+ only. For React < 16 use [`navigate`](navigate) or [Redirect](Redirect
 Imperatively redirects to a new location by throwing a redirect request.
 
 ```jsx
-import { redirectTo } from "@reach/router"
+import { redirectTo } from "@nx-pkg/reach-router"
 
 class User extends React.Component {
   componentDidMount() {

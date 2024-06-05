@@ -7,7 +7,7 @@ import {
   createMemorySource,
   createHistory,
   LocationProvider
-} from "@reach/router"
+} from "@nx-pkg/reach-router"
 
 let history = createHistory(window)
 
@@ -30,7 +30,7 @@ let App = () => (
 The history to listen to. Defaults to the browser history or a memory history if a DOM is not found.
 
 ```jsx
-import { createHistory, LocationProvider } from '@reach/router'
+import { createHistory, LocationProvider } from '@nx-pkg/reach-router'
 let history = createHistory(window)
 
 <LocationProvider history={history}/>

@@ -6,7 +6,7 @@ Creates a source for [`createHistory`](createHistory) that manages a history sta
 import {
   createMemorySource,
   createHistory
-} from "@reach/router"
+} from "@nx-pkg/reach-router"
 
 // for some types of tests you want a memory source
 let source = createMemorySource("/starting/url")
