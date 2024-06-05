@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Component from "@reactions/component";
 import { hot } from "react-hot-loader";
-import { Router, Link } from "@reach/router";
+import { Router, Link } from "@nx-pkg/reach-router";
 import Nav from "./Nav";
 import {
   BLACK,

@@ -5,9 +5,9 @@ Reach Router is a small, simple router for React that borrows from React Router,
 ## Installation
 
 ```sh
-npm install @reach/router
+npm install @nx-pkg/reach-router
 # or
-yarn add @reach/router
+yarn add @nx-pkg/reach-router
 ```
 
 Reach Router is compatible with React 15+.
@@ -23,7 +23,7 @@ Routers select a child to render based on the child's path. The children are jus
 ```js
 import React from "react"
 import { render } from "react-dom"
-import { Router, Link } from "@reach/router"
+import { Router, Link } from "@nx-pkg/reach-router"
 
 let Home = () => <div>Home</div>
 let Dash = () => <div>Dash</div>
@@ -303,7 +303,7 @@ This allows you to have all of your routes configured at the top of the app, or 
 If you need to navigate programmatically (like after a form submits), import `useNavigate`.
 
 ```jsx
-import { useNavigate } from "@reach/router"
+import { useNavigate } from "@nx-pkg/reach-router"
 
 const Invoices = () => {
   const navigate = useNavigate()
@@ -347,7 +347,7 @@ const Invoices = ({ navigate }) => (
 Navigate returns a promise so you can await it. It resolves after React is completely finished rendering the next screen, even with React Suspense.
 
 ```jsx
-import { navigate } from "@reach/router"
+import { navigate } from "@nx-pkg/reach-router"
 
 class Invoices extends React.Component {
   state = {

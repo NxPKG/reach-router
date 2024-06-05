@@ -69,7 +69,10 @@ const App = () => (
 The location to match Route Components against. You don't typically need to pass this in as it is received from context by default. Passing in a location mostly useful for animations where you pass in the old location so the transitioning-out components continue to match the old location.
 
 ```jsx
-import { Location, Router } from "@reach/router"
+import {
+  Location,
+  Router
+} from "@nx-pkg/reach-router"
 import {
   TransitionGroup,
   CSSTransition

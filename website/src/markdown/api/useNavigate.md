@@ -9,7 +9,7 @@ navigate(to, { state={}, replace=false })
 This API requires a hook-compatible version of React.
 
 ```jsx
-import { useNavigate } from "@reach/router"
+import { useNavigate } from "@nx-pkg/reach-router"
 
 const AnalyticTracker = (props) => {
   const navigate = useNavigate();

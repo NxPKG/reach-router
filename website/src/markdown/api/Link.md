@@ -3,9 +3,9 @@
 Provides accessible navigation.
 
 ```jsx
-import { Link } from '@reach/router'
+import { Link } from "@nx-pkg/reach-router"
 
-<Link to="somewhere">Anywhere</Link>
+;<Link to="somewhere">Anywhere</Link>
 ```
 
 ## to: string

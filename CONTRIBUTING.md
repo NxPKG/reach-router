@@ -33,6 +33,6 @@ And in another tab run the example
 ```sh
 # in a new tab
 cd examples/<whatever>
-yarn link "@reach/router"
+yarn link "@nx-pkg/reach-router"
 yarn start
 ```

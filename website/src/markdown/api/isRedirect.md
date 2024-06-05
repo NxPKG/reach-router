@@ -7,7 +7,7 @@ Returns true if the error is a redirect request. Useful for server rendering and
 If you're using `componentDidCatch` in your app you _must_ check if the error is a redirect, and if it is, rethrow it, otherwise the app will not redirect. Even better, you should check if the error is the kind you want to catch and rethrow if not.
 
 ```jsx
-import { isRedirect } from "@reach/router"
+import { isRedirect } from "@nx-pkg/reach-router"
 
 class Decent extends React.Component {
   componentDidCatch(error) {

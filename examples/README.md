@@ -1,10 +1,10 @@
 # Running Examples
 
-Each example uses create-react-app. To develop against the examples you just need to link @reach/router.
+Each example uses create-react-app. To develop against the examples you just need to link @nx-pkg/reach-router.
 
 ```
 # from the root of the repository
-yarn link @reach/router
+yarn link @nx-pkg/reach-router
 cd examples/crud
 yarn && yarn start
 ```

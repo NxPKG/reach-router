@@ -6,7 +6,7 @@ Creates a history object that enables you to listen for location changes. You do
 import {
   createMemorySource,
   createHistory
-} from "@reach/router"
+} from "@nx-pkg/reach-router"
 
 // listen to the browser history
 let history = createHistory(window)

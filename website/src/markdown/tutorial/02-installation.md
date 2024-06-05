@@ -5,7 +5,7 @@ If you're following along with code sandbox for this tutorial, Reach Router is a
 In your own apps you can install it with npm or yarn.
 
 ```sh
-npm install @reach/router
+npm install @nx-pkg/reach-router
 # or
-yarn add @reach/router
+yarn add @nx-pkg/reach-router
 ```

@@ -1,6 +1,6 @@
 /* global VERSION */
 import React from "react";
-import { Link, Match } from "@reach/router";
+import { Link, Match } from "@nx-pkg/reach-router";
 import Logo from "./Logo";
 import {
   BLACK,
@@ -83,7 +83,9 @@ let Nav = () => (
                     <div css={{ padding: 20 }}>
                       <div css={{ fontSize: "85%" }}>
                         v{VERSION} -{" "}
-                        <a href="https://github.com/reach/router">GitHub</a>
+                        <a href="https://github.com/nxpkg/reach-router">
+                          GitHub
+                        </a>
                       </div>
 
                       <Header>About</Header>

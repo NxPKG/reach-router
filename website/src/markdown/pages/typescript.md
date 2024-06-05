@@ -17,10 +17,18 @@ To set props like `path` and `default` on routes, use the `RouteComponentProps` 
 ```tsx
 import * as React from "react"
 import { render } from "react-dom"
-import { Router, RouteComponentProps, Link } from "@reach/router"
+import {
+  Router,
+  RouteComponentProps,
+  Link
+} from "@nx-pkg/reach-router"
 
-let Home = (props: RouteComponentProps) => <div>Home</div>
-let Dash = (props: RouteComponentProps) => <div>Dash</div>
+let Home = (props: RouteComponentProps) => (
+  <div>Home</div>
+)
+let Dash = (props: RouteComponentProps) => (
+  <div>Dash</div>
+)
 
 render(
   <Router>
@@ -44,9 +52,8 @@ render(
   </Router>
 )
 
-interface InvoiceProps extends RouteComponentProps
-{
-	invoiceId?: string;
+interface InvoiceProps extends RouteComponentProps {
+  invoiceId?: string
 }
 
 const Invoice = (props: InvoiceProps) => (
